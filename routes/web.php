@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/home', 'webController@index');
+
 Route::get('/', function () {
     return view('welcome');
 });
